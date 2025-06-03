@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
           muted
           playsInline
           preload="auto"
+          poster="/assets/hero-bg_backup.png"
         />
 
         {/* 2. Overlay (z-10) for better contrast */}
