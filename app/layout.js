@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
           loop
           muted
           playsInline
+          preload="auto"
         />
 
         {/* 2. Overlay (z-10) for better contrast */}
