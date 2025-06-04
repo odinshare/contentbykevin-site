@@ -19,12 +19,11 @@ export default function RootLayout({ children }) {
           className="absolute top-12 sm:inset-0 left-0 right-0 bottom-0 w-full h-[calc(100vh-3rem)] sm:h-full z-0 object-cover"
           src="/assets/hero-supercompressed.mp4"
           autoPlay
-          noControls
-          loop
           muted
+          loop
           playsInline
-          webkit-playsInline="true"
           preload="auto"
+          webkit-playsinline
         />
 
         {/* 2. Overlay (z-10) for better contrast */}
