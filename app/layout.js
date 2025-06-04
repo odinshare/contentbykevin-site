@@ -16,14 +16,13 @@ export default function RootLayout({ children }) {
       <body className="relative min-h-screen overflow-x-hidden">
         {/* 1. Full-screen static background image (z-0) */}
         <video
-          className="fixed top-12 sm:inset-0 left-0 right-0 bottom-0 w-full h-[calc(100vh-3rem)] sm:h-full z-0 object-cover"
-          src="/assets/nature_tech_720P_50fps-muted.mp4"
+          className="absolute top-12 sm:inset-0 left-0 right-0 bottom-0 w-full h-[calc(100vh-3rem)] sm:h-full z-0 object-cover"
+          src="/assets/hero-compressed3.mp4"
           autoPlay
           loop
           muted
           playsInline
           preload="auto"
-          poster="/assets/hero-bg_backup.png"
         />
 
         {/* 2. Overlay (z-10) for better contrast */}
