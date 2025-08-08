@@ -60,7 +60,7 @@ export default function Portfolio() {
           <div className="relative w-full max-w-3xl mx-auto bg-white rounded-lg overflow-hidden">
             {/* Close button */}
             <button
-              className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-2xl"
+              className="absolute top-2 right-2 text-red-600 hover:text-red-800 text-2xl"
               onClick={() => setSelectedProject(null)}
             >
               ×
