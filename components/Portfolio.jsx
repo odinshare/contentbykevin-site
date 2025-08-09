@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "WashWorks",
+    title: "WashWorks.US",
     description:
       "Premium residential and commercial power‑washing services delivered with precision and care. WashWorks revitalizes siding, decks, driveways, and more—coming soon with an intuitive booking interface, before-and-after galleries, and seasonal maintenance plans.",
     imgSrc: "/assets/washworks-coming-soon.jpg",
