@@ -19,10 +19,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "MorteMedia",
+    title: "MediaMorte",
     description:
-      "MorteMedia is a cybersecurity consultancy specializing in end‑to‑end digital transformation and secure business overhauls. Backed by real-world pentester expertise, we deliver vulnerability assessments, secure architecture design, and ongoing monitoring. Launching soon.",
-    imgSrc: "/assets/mortemedia-coming-soon.jpg",
+      "MediaMorte is a cybersecurity consultancy specializing in end‑to‑end digital transformation and secure business overhauls. Backed by real-world pentesting expertise, we deliver vulnerability assessments, secure architecture design, and ongoing monitoring. Launching soon.",
+    imgSrc: "/assets/mediamorte-coming-soon.jpg",
   },
 ];
 
