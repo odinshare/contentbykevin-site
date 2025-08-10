@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: "MorteMedia",
     description:
-      "MorteMedia is a cybersecurity consultancy specializing in end‑to‑end digital transformation and secure business overhauls. Backed by HackTheBox Academy pentester expertise, we deliver vulnerability assessments, secure architecture design, and ongoing monitoring. Launching soon.",
+      "MorteMedia is a cybersecurity consultancy specializing in end‑to‑end digital transformation and secure business overhauls. Backed by real-world pentester expertise, we deliver vulnerability assessments, secure architecture design, and ongoing monitoring. Launching soon.",
     imgSrc: "/assets/mortemedia-coming-soon.jpg",
   },
 ];
