@@ -11,54 +11,69 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/20/solid";
 
 const faqItems = [
   {
-    question: "What is the cost of web development services in 2025?",
+    question: "How much do your websites cost?",
     answer:
-      "Our pricing starts at $1,200 for a basic informational website, with custom features (e-commerce, memberships, integrations) priced separately. We always tailor a quote to your exact needs—no hidden fees.",
+      "Basic, clean, professional sites like washworks.us or recoveryontheharbor.com usually start around $1,200. If you want extra functionality—like custom integrations, automation, or e-commerce—the price goes up depending on what’s involved. Every project is quoted up front so you know exactly what you’re paying for.",
   },
   {
-    question: "How long does it take to build a custom website?",
+    question: "How long will it take to get my site online?",
     answer:
-      "Most small-to-medium sites take 3–6 weeks from kickoff to launch. This timeline includes discovery, design, development, quality assurance, and final deployment. Larger projects (e-commerce platforms, custom web apps) can take 8–12 weeks or more depending on complexity.",
+      "For a straightforward informational site, I can usually get you live in 3–4 weeks from the time we lock in the details. Bigger builds with advanced features or custom design work can take 6–8 weeks or more, depending on scope and how quickly you provide content.",
   },
   {
-    question: "Do you create mobile-friendly and responsive websites?",
+    question: "Will my site work on phones and tablets?",
     answer:
-      "Absolutely. Every site we build is fully responsive, ensuring a seamless experience on phones, tablets, and desktops. We follow best practices for fluid layouts, optimized images, and touch-friendly navigation so your site looks great on any device.",
+      "Yes. Everything I build is mobile-friendly by default. Whether someone’s on a phone, tablet, or desktop, your site will adjust to fit and function properly without them having to zoom or fight with tiny buttons.",
   },
   {
-    question: "What content management system (CMS) do you recommend in 2025?",
+    question: "What platform or setup do you use for websites?",
     answer:
-      "We specialize in headless/Next.js-powered CMS setups like Sanity, Strapi, or Contentful, as well as traditional systems like WordPress (with Headless Next.js frontends). Our recommendation depends on your team’s workflow, budget, and scalability needs.",
+      "I keep things simple and modern—usually a Next.js front end deployed through platforms like Vercel or Cloudflare, tied to a Git repo so updates are quick and painless. If a project needs a CMS, I can set that up too, but a lot of clients prefer a streamlined, no-clutter build.",
   },
   {
-    question: "How do you optimize for search engines (SEO)?",
+    question: "Do you do SEO work?",
     answer:
-      "SEO is built-in from day one: semantic HTML, fast load times, accessible markup, and proper meta tags (Open Graph, Twitter Cards). We also generate XML sitemaps, integrate structured data (JSON-LD), and advise on keyword-driven content strategy to help your site climb the rankings.",
+      "I set up your site so it’s search-engine friendly from day one—fast load times, clean code, correct tags, and an automatic sitemap. I can also walk you through basic keyword and content strategy so you can keep improving your ranking after launch.",
   },
   {
-    question: "Will I be able to update my site myself after launch?",
+    question: "Can I make my own updates once it’s done?",
     answer:
-      "Yes. We provide a user-friendly editor interface (CMS) and walk you through how to make common updates—text changes, new blog posts, image swaps—without touching code. We also offer ongoing maintenance plans if you prefer we handle updates and backups for you.",
+      "If you want that ability, yes. I can set up a simple workflow so you can swap out text, images, or blog posts without touching code. Or, if you’d rather not deal with it, I offer ongoing maintenance so you can just send me changes when you need them.",
   },
   {
-    question: "What is your process for web design and development?",
+    question: "What’s your process for building a site?",
     answer:
-      "We follow a four-step process: 1) Discovery & Planning (define goals, user personas, site map), 2) Design (wireframes, high-fidelity mockups, UI/UX feedback), 3) Development (Next.js front end, CMS integration, performance tuning), and 4) Review & Launch (QA, accessibility audit, DNS setup). Each phase ends with your approval before moving on.",
+      "First, we figure out exactly what you want the site to do and who it’s for. Then I put together a structure and basic design concept for you to approve. Once that’s locked, I handle development, test it thoroughly, and launch it. You get updates at every stage so there are no surprises.",
   },
   {
-    question: "Do you offer e-commerce solutions?",
+    question: "Can you build e-commerce sites?",
     answer:
-      "Yes—we integrate popular platforms like Shopify, Stripe Checkout, or build custom solutions with tools like Snipcart for headless commerce. We ensure secure payment gateways, inventory management, and a seamless checkout experience.",
+      "Yes. I can hook your site up to Shopify, Stripe Checkout, or custom setups so you can sell products or services online. It’ll be secure, easy to manage, and designed to make checkout smooth for your customers.",
   },
   {
-    question: "How do you handle hosting and site performance?",
+    question: "Where will my site be hosted?",
     answer:
-      "We typically deploy on Vercel (for Next.js) or Netlify, enabling automatic performance optimization (edge caching, image optimization, code splitting). We configure CDN, HTTPS, and serverless functions as needed for lightning-fast load times.",
+      "Most of my sites are deployed on Vercel or Cloudflare—they’re fast, reliable, and handle all the technical performance stuff like caching and image optimization. I’ll also make sure your site is running over HTTPS and protected by a CDN.",
   },
   {
-    question: "What ongoing support and maintenance do you offer?",
+    question: "Do you offer support after launch?",
     answer:
-      "We provide optional maintenance plans that cover security updates, regular backups, content updates, and troubleshooting. If you’d rather focus on running your business, let us handle the technical details so your site stays healthy and secure.",
+      "I can. Some clients just need a one-time build, others prefer an ongoing plan where I handle updates, backups, and troubleshooting. Either way, I’m available if something breaks or you want to make changes down the road.",
+  },
+  {
+    question: "Do you only build websites?",
+    answer:
+      "Websites are my main public service right now, but I also have a background in Linux systems, scripting, and automation. I’m constantly expanding into different sectors of cybersecurity, so my skillset is alwasy growing ;-)",
+  },
+  {
+    question: "Can you help improve a site I already have?",
+    answer:
+      "Yes. Whether you need speed improvements, better security, or a design refresh, I can work on existing sites without tearing them down completely—saving you time and money.",
+  },
+  {
+    question: "Do you take on small, one-off projects?",
+    answer:
+      "I do! Not every job needs a full site rebuild. If you just need a landing page, bug fix, or hosting setup, I can handle smaller tasks without overcomplicating the process.",
   },
 ];
 
